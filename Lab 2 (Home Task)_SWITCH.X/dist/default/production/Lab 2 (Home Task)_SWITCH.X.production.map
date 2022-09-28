@@ -1,0 +1,46 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Thu Jul 22 15:40:10 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                   .org_1       code   0x000200    program   0x000034
+.config_300001_BUILD/DEFAULT/PRODUCTION/SWITCH.    romdata   0x300001    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/SWITCH.    romdata   0x300003    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000200    0x000233      
+                            0x300001    0x300001      
+                            0x300003    0x300003      
+            60 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    Again   0x000214    program     static F:\My course\Semester 4\Labs\Embedded Systems Lab\PIC\Lab 3\Lab 2 (Home Task)_SWITCH.X\Switch.asm
+                    DEC_L   0x00022e    program     static F:\My course\Semester 4\Labs\Embedded Systems Lab\PIC\Lab 3\Lab 2 (Home Task)_SWITCH.X\Switch.asm
+                     Here   0x000206    program     static F:\My course\Semester 4\Labs\Embedded Systems Lab\PIC\Lab 3\Lab 2 (Home Task)_SWITCH.X\Switch.asm
+                     MAIN   0x000200    program     static F:\My course\Semester 4\Labs\Embedded Systems Lab\PIC\Lab 3\Lab 2 (Home Task)_SWITCH.X\Switch.asm
+                      New   0x000228    program     static F:\My course\Semester 4\Labs\Embedded Systems Lab\PIC\Lab 3\Lab 2 (Home Task)_SWITCH.X\Switch.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     MAIN   0x000200    program     static F:\My course\Semester 4\Labs\Embedded Systems Lab\PIC\Lab 3\Lab 2 (Home Task)_SWITCH.X\Switch.asm
+                     Here   0x000206    program     static F:\My course\Semester 4\Labs\Embedded Systems Lab\PIC\Lab 3\Lab 2 (Home Task)_SWITCH.X\Switch.asm
+                    Again   0x000214    program     static F:\My course\Semester 4\Labs\Embedded Systems Lab\PIC\Lab 3\Lab 2 (Home Task)_SWITCH.X\Switch.asm
+                      New   0x000228    program     static F:\My course\Semester 4\Labs\Embedded Systems Lab\PIC\Lab 3\Lab 2 (Home Task)_SWITCH.X\Switch.asm
+                    DEC_L   0x00022e    program     static F:\My course\Semester 4\Labs\Embedded Systems Lab\PIC\Lab 3\Lab 2 (Home Task)_SWITCH.X\Switch.asm
+
+

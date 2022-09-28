@@ -1,0 +1,38 @@
+#include "P18F452.inc"
+LIST P=18F452, F=INHX32, MM=OFF
+    
+CONFIG OSC=XT
+CONFIG WDT=OFF
+    
+ORG 0x00
+GOTO MAIN
+ORG 0x200
+    
+MAIN:
+    
+    R2 EQU 0x20
+    R3 EQU 0x21
+ 
+    MOVLW 0x00
+    MOVWF TRISB
+    
+    ENDLESS_LOOP
+	COMF PORTB, F
+	CALL Delay
+	BRA ENDLESS_LOOP
+	ORG 0x2000
+    
+    Delay			; 500ms Delay, F=10MHz
+    
+		MOVLW D'200'
+		MOVWF R3
+	AGAIN	MOVLW D'250'
+			MOVWF R2
+	HERE	NOP
+			NOP
+			DECF	R2,F
+			BNZ HERE
+			DECF	R3,F
+			BNZ AGAIN
+			RETURN
+END

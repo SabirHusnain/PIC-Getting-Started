@@ -1,0 +1,48 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Thu Jul 22 18:09:54 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                   .org_1       code   0x000200    program   0x00000c
+                   .org_2       code   0x002000    program   0x000016
+.config_300001_BUILD/DEFAULT/DEBUG/BLINKING_LED    romdata   0x300001    program   0x000001
+.config_300003_BUILD/DEFAULT/DEBUG/BLINKING_LED    romdata   0x300003    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000200    0x00020b      
+                            0x002000    0x002015      
+                            0x300001    0x300001      
+                            0x300003    0x300003      
+            42 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    AGAIN   0x002004    program     static F:\My course\Semester 4\Labs\Embedded Systems Lab\PIC\Lab 3\Lab 2 (Class Task)_BLINKING_LED.X\BLINKING_LED.asm
+                    Delay   0x002000    program     static F:\My course\Semester 4\Labs\Embedded Systems Lab\PIC\Lab 3\Lab 2 (Class Task)_BLINKING_LED.X\BLINKING_LED.asm
+             ENDLESS_LOOP   0x000204    program     static F:\My course\Semester 4\Labs\Embedded Systems Lab\PIC\Lab 3\Lab 2 (Class Task)_BLINKING_LED.X\BLINKING_LED.asm
+                     HERE   0x002008    program     static F:\My course\Semester 4\Labs\Embedded Systems Lab\PIC\Lab 3\Lab 2 (Class Task)_BLINKING_LED.X\BLINKING_LED.asm
+                     MAIN   0x000200    program     static F:\My course\Semester 4\Labs\Embedded Systems Lab\PIC\Lab 3\Lab 2 (Class Task)_BLINKING_LED.X\BLINKING_LED.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     MAIN   0x000200    program     static F:\My course\Semester 4\Labs\Embedded Systems Lab\PIC\Lab 3\Lab 2 (Class Task)_BLINKING_LED.X\BLINKING_LED.asm
+             ENDLESS_LOOP   0x000204    program     static F:\My course\Semester 4\Labs\Embedded Systems Lab\PIC\Lab 3\Lab 2 (Class Task)_BLINKING_LED.X\BLINKING_LED.asm
+                    Delay   0x002000    program     static F:\My course\Semester 4\Labs\Embedded Systems Lab\PIC\Lab 3\Lab 2 (Class Task)_BLINKING_LED.X\BLINKING_LED.asm
+                    AGAIN   0x002004    program     static F:\My course\Semester 4\Labs\Embedded Systems Lab\PIC\Lab 3\Lab 2 (Class Task)_BLINKING_LED.X\BLINKING_LED.asm
+                     HERE   0x002008    program     static F:\My course\Semester 4\Labs\Embedded Systems Lab\PIC\Lab 3\Lab 2 (Class Task)_BLINKING_LED.X\BLINKING_LED.asm
+
+
